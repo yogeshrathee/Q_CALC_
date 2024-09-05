@@ -63,17 +63,3 @@ To run the Calculator Application, you need the following:
 - **Java Development Kit (JDK):** Ensure that you have the Java Development Kit (JDK) installed on your system to run Java applications.
 - **Gradle Wrapper (gradlew):** We use the Gradle Wrapper for managing the project build process, so you don't need to install Gradle separately.
 
-
-## 🧪 Testing
-
-Ensuring the reliability and accuracy of the Calculator Application is crucial. We provide a testing framework to verify that the application functions as intended. Here's how you can put it to use:
-
-To verify the application's functionality and the accuracy of your calculations, follow these steps:
-
-1. Open the test class for the desired calculator type (e.g., `StandardCalculatorTest.java`, `ScientificCalculatorTest.java`, or `LogicCalculatorTest.java`).
-
-2. Run the tests using your preferred Integrated Development Environment (IDE) or utilize the following Gradle command:
-
-   ```bash
-   ./gradlew test
-
